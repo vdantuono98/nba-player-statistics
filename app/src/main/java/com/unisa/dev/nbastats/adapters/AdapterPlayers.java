@@ -63,6 +63,15 @@ public class AdapterPlayers extends RecyclerView.Adapter<AdapterPlayers.ViewHold
                 .into(holder.playerPhoto);
 
 
+        String URL12 = "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/"+list.get(actualPos).getNBAID()+".png";
+        Glide.with(context)
+                .load(URL)
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
+                .error(R.drawable.placeholder)
+                .into(holder.playerPhoto);
+
+
+
 
 
     }

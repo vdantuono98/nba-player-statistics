@@ -53,6 +53,10 @@ public class AdapterPlayers extends RecyclerView.Adapter<AdapterPlayers.ViewHold
             public void onClick(View view) {
                 onPlayerClickedListener.onPlayerClicked(list.get(actualPos));
             }
+
+
+
+            
         });
 
         String URL = "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/"+list.get(actualPos).getNBAID()+".png";

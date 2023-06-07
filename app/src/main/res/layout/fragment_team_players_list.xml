@@ -78,6 +78,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:visibility="gone"
+
+        
         android:layout_below="@id/spinner"
         android:layout_marginTop="10dp"
         android:id="@+id/recyclerViewPlayers"
